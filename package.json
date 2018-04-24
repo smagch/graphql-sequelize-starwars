@@ -1,5 +1,14 @@
 {
+  "private": true,
+  "author": {
+    "name" : "Tomoya Shimaguchi"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha",
+    "start": "node server.js"
+  },
   "dependencies": {
+    "expect.js": "^0.3.1",
     "express": "^4.16.3",
     "express-graphql": "^0.6.12",
     "graphql": "^0.13.2",
@@ -9,6 +18,8 @@
     "sequelize": "^4.37.6",
     "sequelize-cli": "^4.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  },
   "license": "MIT"
 }
