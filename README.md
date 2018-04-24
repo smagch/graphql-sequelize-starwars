@@ -1,9 +1,10 @@
-# Sequelize
+# GraphQL Sequelize Star Wars
 
-A demonstration of [graphql-sequelize].
+This is a demonstration of [graphql-sequelize], which allows you to query Star
+Wars characters: Luke Skywalker, Darth Vader, Han Solo, Leia Organa, Wilhuff
+Tarkin, C-3PO, and R2-D2.
 
-The GraphQL schema, the Star Wars, is borrowed from [graphql-js] (though there
-are minor differences).
+The GraphQL schema is borrowed from [graphql-js].
 
 ## Installation
 
